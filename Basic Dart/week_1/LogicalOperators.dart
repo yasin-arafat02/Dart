@@ -13,14 +13,16 @@ void main() {
       print("No member benefits available.");
     }
 
-  } else if (age < 18 || !hasPermission) {
+  } 
+  else if (age < 18 || !hasPermission) {
     print("Access denied because you are under 18 OR you lack permission.");
     
     if (!hasPermission) {
       print("Please get permission first!");
     }
     
-  } else {
+  } 
+  else {
     print("Check your details again.");
   }
 
